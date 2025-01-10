@@ -1,14 +1,14 @@
-[{"title":"FOB","description":"Pathfinders.","x":1843.7,"y":6730.57}]
+[{"title":"FOB","description":"Pathfinders.","x":1843.7,"y":6730.57},
 
 
-[{"title":"Get in","description":"Boats","x":1850,"y":6730.57}]
-[{"title":"Disembark","description":"Inside the coastal cave, proceed to the FIA encampment.","x":1843.7,"y":6730.57}]
+{"title":"Get in","description":"Boats","x":1850,"y":6730.57},
+{"title":"Disembark","description":"Inside the coastal cave, proceed to the FIA encampment.","x":1843.7,"y":6730.57},
 
-[{"title":"Scout","description":"Meerkat","x":1860,"y":6730.57}]
-[{"title":"Scout","description":"Meerkat","x":1870,"y":6730.57}]
-[{"title":"Scout","description":"Meerkat","x":1880,"y":6730.57}]
-[{"title":"Scout","description":"Meerkat","x":1890,"y":6730.57}]
-[{"title":"Scout","description":"Meerkat","x":1850,"y":6730.57}]
+{"title":"Scout","description":"Meerkat","x":1860,"y":6730.57},
+{"title":"Scout","description":"Meerkat","x":1870,"y":6730.57},
+{"title":"Scout","description":"Meerkat","x":1880,"y":6730.57},
+{"title":"Scout","description":"Meerkat","x":1890,"y":6730.57},
+{"title":"Scout","description":"Meerkat","x":1850,"y":6730.57},
 
-[{"title":"Scout","description":"Snake","x":1840,"y":6730.57}]
-[{"title":"Scout","description":"Snake","x":1830,"y":6730.57}]
+{"title":"Scout","description":"Snake","x":1840,"y":6730.57},
+{"title":"Scout","description":"Snake","x":1830,"y":6730.57}]
