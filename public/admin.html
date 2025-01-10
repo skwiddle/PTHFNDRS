@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./admin.js" type="module"></script>
+  </head>
+  <body>
+    <div id="heading">
+      <h1>Pathfinders Interactive Map</h1>
+      <div class="zoom-container" id="zoom-container-0">
+        <div class="zoom-child" id="zoom-child-0">
+          <img src="./image/everon-map.jpg" alt="image" />
+          <svg class="overlay-container" id="overlay-container-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8000 8000" width="8000px" height="8000px"></svg>
+          <div class="marker-container" id="marker-container-0"></div>
+        </div>
+        <div class="ruler-container" id="ruler-container-v">
+          <div class="ruler-background"></div>
+          <img class="ruler-v" id="ruler-v" src="./image/ruler-v.jpg" />
+        </div>
+        <div class="ruler-container" id="ruler-container-h">
+          <div class="ruler-background"></div>
+          <img class="ruler-h" id="ruler-h" src="./image/ruler-h.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" id="legend">
+      <button class="toggle-button"><div></div></button>
+      <h3>Map Legend</h3>
+      <ul>
+        <!-- Friendly Territory -->
+        <li>
+          <span class="panel-item" style="background-color: blue; opacity: 0.3"></span>
+          Friendly Territory
+        </li>
+        <!-- Unconfirmed Territory -->
+        <li>
+          <span class="panel-item" style="background-color: grey; opacity: 0.3"></span>
+          Unconfirmed Territory
+        </li>
+        <!-- Hostile Territory -->
+        <li>
+          <span class="panel-item" style="background-color: red; opacity: 0.3"></span>
+          Hostile Territory
+        </li>
+        <!-- Objectives -->
+        <li>
+          <span class="panel-item rounded" style="background-color: blue"></span>
+          Objective
+        </li>
+        <li>
+          <span class="panel-item rounded" style="background-color: orange"></span>
+          Objective
+        </li>
+        <li>
+          <span class="panel-item rounded" style="background-color: red"></span>
+          Objective
+        </li>
+        <!-- Patrol Routes -->
+        <li>
+          <span class="panel-line" style="background-color: blue"></span>
+          Combat Patrol Route
+        </li>
+        <li>
+          <span class="panel-line" style="background-color: orange"></span>
+          Stealth Patrol Route
+        </li>
+        <li>
+          <span class="panel-line" style="background-color: red"></span>
+          Enemy Patrol Route
+        </li>
+      </ul>
+    </div>
+
+    <div class="panel" id="briefing">
+      <button class="toggle-button"><div></div></button>
+      <h3>Briefing</h3>
+      Hello!
+    </div>
+
+    <div id="navbar">
+      <button id="navitem-briefing" class="pushed">Briefing</button>
+      <button id="navitem-legend" class="pushed">Legend</button>
+      <button id="navitem-save">Save Overlays</button>
+    </div>
+  </body>
+</html>

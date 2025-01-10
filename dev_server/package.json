@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.16",
+    "@types/pg": "^8.11.10"
+  }
+}

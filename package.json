@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "prettier": "^3.4.2"
+  },
+  "scripts": {
+    "format": "prettier . --write",
+    "serve": "bun ./dev_server/tools/start.ts"
+  }
+}

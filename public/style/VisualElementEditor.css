@@ -1,0 +1,6 @@
+.visual-element-editor-handle {
+  background-color: red;
+  border-radius: 9999px;
+  cursor: pointer;
+  position: absolute;
+}

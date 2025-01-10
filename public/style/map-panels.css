@@ -1,0 +1,66 @@
+.panel {
+  user-select: none;
+  pointer-events: none;
+
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  max-width: 250px;
+  padding: 10px;
+  position: fixed;
+  min-width: 10em;
+  min-height: 5em;
+}
+
+.panel .toggle-button {
+  appearance: none;
+  border-radius: 9999px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  pointer-events: auto;
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+}
+
+.panel .toggle-button > div {
+  background-color: lightgray;
+  margin: 0.75em;
+  width: 0.75em;
+  height: 0.25em;
+}
+
+.panel h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.panel li {
+  margin-bottom: 8px;
+}
+.panel .panel-item,
+.panel .panel-line {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.panel .panel-item {
+  width: 20px;
+  height: 20px;
+}
+.panel .panel-item.rounded {
+  border-radius: 50%;
+}
+.panel .panel-line {
+  width: 30px;
+  height: 5px;
+}

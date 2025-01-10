@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "target": "ESNext",
+
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "@types",
+
+    "strictNullChecks": true
+  }
+}
